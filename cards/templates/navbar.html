@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #a7bc5b;">
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: black;">
 
   
     <!-- Collapse button -->
@@ -16,13 +16,13 @@
           
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{%url 'post'%}">New flashcard</a>
+          <a class="nav-link" href="#">New flashcard</a>
         </li>
   
       </ul>
-      <form class="form-inline my-1" role="search" action="{% url 'search' %}">
+      <form class="form-inline my-1" role="search" action="#">
         <div class="md-form form-sm my-0">
-          <input type="text" class="form-control" placeholder="Search for a project" name="project">
+          <input type="text" class="form-control" placeholder="Search for a card" name="project">
         </div>
       </form>
       <!-- Links -->
@@ -44,15 +44,15 @@
                     <br>
                     <a href="{%url 'accounts:signup' %}" >Signup</a>
                     <br>
-                    <a class="dropdown-item" href="{% url 'edit' %}">Edit profile</a>
+                    <a class="dropdown-item" href="#">Edit profile</a>
                   {% endif %}
                   <hr>
-              <a href="{%url 'myprofile'%}"><strong>My profile</strong></a>
+              <a href="#"><strong>My profile</strong></a>
               </div>
           </div>
         </li>
       </ul>
-      <a class="nav-link" href="{%url 'index'%}"><i class="fa fa-home" style="color:white;" aria-hidden="true"></i></a>
+      <a class="nav-link" href="#"><i class="fa fa-home" style="color:white;" aria-hidden="true"></i></a>
       
     </div>
     <!-- Collapsible content -->
